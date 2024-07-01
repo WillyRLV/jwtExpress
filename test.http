@@ -1,0 +1,12 @@
+# GET http://localhost:3000/private
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwibmFtZSI6IndpbGwiLCJpYXQiOjE3MTE3OTk2NzIsImV4cCI6MTcxMTc5OTY4Mn0.SF9qFXdKBHUuts18MxBElfE1Y1ggKH0thMRTwRdphyw
+
+
+POST http://localhost:3000/auth HTTP/1.1
+Accept: application/json
+content-type: application/json
+
+{
+    "name":"admin",
+    "pass":"admin"
+}
